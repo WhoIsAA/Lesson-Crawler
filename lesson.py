@@ -158,8 +158,8 @@ if __name__ == '__main__':
 
 	#请求参数
 	data = {}
-	data['password'] = "611640"
-	data['phone'] = "15602611640"
+	data['password'] = "你的密码"
+	data['phone'] = "你的手机号码"
 	data['rember_me'] = "0"
 	logingData = parse.urlencode(data).encode('utf-8')
 
