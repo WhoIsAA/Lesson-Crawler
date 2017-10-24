@@ -172,7 +172,7 @@ if __name__ == '__main__':
 	#课程列表请求
 	list_request = request.Request(list_url, headers = headers)
 	try:
-    	#模拟登录
+    		#模拟登录
 		login_rsp = opener.open(login_request)
 		response = opener.open(list_request)
 		html = response.read().decode('utf-8')
