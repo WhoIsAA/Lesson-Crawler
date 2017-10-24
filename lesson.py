@@ -123,7 +123,7 @@ def analyse_item(index, html, document):
 			document.add_paragraph(option)
 			options.append(option)
 		print("选项：%s" % options)
-	elif(exam_type == '简答题'):
+	elif(exam_type == '[简答题]'):
 		document.add_paragraph("")
 		document.add_paragraph("")
 		document.add_paragraph("")
